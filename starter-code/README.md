@@ -1,8 +1,10 @@
-#Mongodb
-##Provision
+# Mongodb
+
+
+## Provision
 A script is provisioned by specifying a working directory, a log directory into which output from the script is recorded and a command to execute the script.
 
-##Tests
+## Tests
 Look at the vagrant up output and tests to understand what is missing in the provision file.
 
 ##How to run the tests?
@@ -25,7 +27,7 @@ It is sometimes necessary to vagrant destroy before re doing the process above t
 vagrant destroy
 ```
 
-##Provision
+## Provision
 To pass the tests changes are made to the provision file.
 
 Look at mongodb documentation online on how to install
